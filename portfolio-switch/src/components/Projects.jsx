@@ -14,6 +14,7 @@ export const Projects = () => {
         
             {projetos.map(element => ( 
             <div 
+            onClick={() => console.log('clicou')}
             key={element.id}
             className="flex hover:scale-105 bg-[#D9D9D9] w-30 h-30"
             >

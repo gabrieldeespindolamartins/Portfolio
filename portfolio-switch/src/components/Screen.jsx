@@ -6,10 +6,14 @@ import { Projects } from './Projects.jsx'
 import { Skills } from './skills.jsx'
 import { Space } from 'lucide-react'
 import { ArrowDown } from 'lucide-react'
+import { Modal } from './Modal.jsx'
+
 
 export const Screen = () => {
+
+
   return (
-    <div className="flex flex-col justify-between items-center bg-[#E8EBE8] w-[625px] h-[344px] rounded-[5px]"> {/* Tela principal*/}
+    <div className="flex relative flex-col justify-between items-center bg-[#E8EBE8] w-[625px] h-[344px] rounded-[5px]"> {/* Tela principal*/}
 
         <header className='flex items-center justify-between px-7 h-[50px] w-full '>
             <div className='h-7 w-7 rounded-full bg-[#8b8b8b]'> {/* Perfil*/}</div>
@@ -38,6 +42,7 @@ export const Screen = () => {
           <p>OK</p>
         </footer>
 
+        <Modal />
     </div>
   )
 }
