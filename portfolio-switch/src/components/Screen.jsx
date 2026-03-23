@@ -16,7 +16,7 @@ export const Screen = () => {
     <div className="flex relative flex-col justify-between items-center bg-[#E8EBE8] w-[625px] h-[344px] rounded-[5px]"> {/* Tela principal*/}
 
         <header className='flex items-center justify-between px-7 h-[50px] w-full '>
-            <div className='h-7 w-7 rounded-full bg-[#8b8b8b]'> {/* Perfil*/}</div>
+            <img className='h-7 w-7 rounded-full object-cover hover:scale-120 transition-transform 3000ms ease-out' src='perfil.png'/>
 
             <data className='flex items-center justify-between h-full w-25 text-[#888D8B]'>
               <Hour />
